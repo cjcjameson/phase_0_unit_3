@@ -1,11 +1,12 @@
 # U3.W7: Designing Schemas
 
 
-#### I worked on this challenge [by myself, with: ]
+#### I worked on this challenge with Jake Persing and C.J. Jameson
 
 
 ## Release 0: Student Roster Schema
-<!-- display your image inline here -->
+
+![Jake and C.J. schemas](http://github.com/cjcjameson/phase_0_unit_3/blob/master/week_7/imgs/schema_screenshot.png)
 
 
 ## Release 1: One to Many Schema
