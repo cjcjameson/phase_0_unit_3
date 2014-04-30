@@ -26,13 +26,57 @@ var scores = [ [80, 70, 70, 100],
 // __________________________________________
 // Write your code below.
 
+// var average = function (numbers) {
+//   var sum = 0;
+//   for (i = 0; i < numbers.length; i++) {
+//     sum += numbers[i];
+//   }
+//   return sum / numbers.length
+// };
 
 
+// var gradebook = {}
+// for (i = 0; i < students.length; i++) {
+//   gradebook[students[i]] = {
+//       'testScores': scores[i],
+//       'studentName': students[i]
+//     };
+// }
 
+// gradebook.addScore = function(student, score) {
+//   gradebook[student].testScores.push(score)
+// }
 
+// gradebook.getAverage = function(student) {
+//   return average(gradebook[student].testScores);
+// }
 
 // __________________________________________
 // Refactored Solution
+
+var average = function (numbers) {
+  var sum = 0;
+  for (i = 0; i < numbers.length; i++) {
+    sum += numbers[i];
+  }
+  return sum / numbers.length
+};
+
+
+var gradebook = {}
+for (i = 0; i < students.length; i++) {
+  gradebook[students[i]] = {
+      'testScores': scores[i]
+    };
+}
+
+gradebook.addScore = function(student, score) {
+  gradebook[student].testScores.push(score)
+}
+
+gradebook.getAverage = function(student) {
+  return average(gradebook[student].testScores);
+}
 
 
 
